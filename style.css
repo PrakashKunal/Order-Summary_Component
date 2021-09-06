@@ -1,0 +1,97 @@
+*{
+
+    box-sizing: border-box;
+    font-family: 'Red Hat Display',sans-serif;
+}
+body
+{
+    background-image:url("images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size:contain;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+#card-img
+{
+    margin: 0;
+    padding: 0;
+}
+#plan
+{
+    margin-top: -1.5rem;
+}
+p
+{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+#pricing
+{
+    box-sizing: border-box;
+    max-width: 60vw;
+    margin-left: 4.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(225, 100%, 95.2%);
+    border-radius: 14px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.card
+{
+    display:flexbox;
+    width: 450px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 12px;
+    min-height: 70vh;
+}
+#paybtn
+{
+    background-color:hsl(245, 75%, 52%) ;
+    text-decoration: none;
+    border: none;
+    padding: 0.75rem 4.5rem;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 1rem;
+    color:hsl(225, 100%, 94%);
+    box-shadow: 0 .9rem 5px hsl(225, 100%, 92%);
+    margin-bottom: 1.5rem;
+}
+#change
+{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    
+}
+#cancel
+{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+#change:hover
+{
+    text-decoration: none;
+    color:hsl(251, 94%, 67%) ;
+}
+#cancel:hover
+{
+    color:hsl(223, 47%, 23%) ;
+}
+#paybtn:hover
+{
+    background-color:hsl(251, 94%, 67%) ;
+}
